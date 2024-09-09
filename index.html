@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Product Display</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Product Processing Results</h1>
+
+    <div class="result-section">
+      <h2>Filtered Products (Price > 1000 & Appliances)</h2>
+      <pre id="filtered" class="result-box"></pre>
+    </div>
+
+    <div class="result-section">
+      <h2>Mapped Products (Name & Category)</h2>
+      <pre id="mapped" class="result-box"></pre>
+    </div>
+
+    <div class="result-section">
+      <h2>Reduced Products (ID as Key)</h2>
+      <pre id="reduced" class="result-box"></pre>
+    </div>
+
+    <div class="result-section">
+      <h2>Combined Products (Using Spread Operator)</h2>
+      <pre id="combined" class="result-box"></pre>
+    </div>
+
+    <div class="result-section">
+      <h2>Products with Discount (Price > 2000)</h2>
+      <pre id="discount" class="result-box"></pre>
+    </div>
+
+    <h2>Error Message</h2>
+    <p id="error-message" class="error-message"></p>
+  </div>
+
+  <script src="processProducts.js"></script>
+</body>
+</html>
